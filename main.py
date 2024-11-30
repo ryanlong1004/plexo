@@ -1,7 +1,8 @@
 import os
+from typing import Generator
+
 from dotenv import load_dotenv
 from plexapi.server import PlexServer
-from typing import Generator
 
 # Load environment variables from .env file
 load_dotenv()
